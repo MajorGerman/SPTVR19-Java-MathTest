@@ -38,7 +38,7 @@ class App {
             correct_answers ++;
         }
         
-        System.out.print("\n1) " + number3 + " x " + number4 + " = ");
+        System.out.print("\n2) " + number3 + " x " + number4 + " = ");
         answer = scan.nextInt();
         if (answer != (number3*number4)) {
             System.out.println(ANSI_RED + "Wrong Answer!" + ANSI_RESET);
@@ -47,7 +47,7 @@ class App {
             correct_answers ++;
         }
         
-        System.out.print("\n1) " + number5 + " x " + number6 + " = ");
+        System.out.print("\n3) " + number5 + " x " + number6 + " = ");
         answer = scan.nextInt();
         if (answer != (number5*number6)) {
             System.out.println(ANSI_RED + "Wrong Answer!" + ANSI_RESET);
@@ -56,7 +56,7 @@ class App {
             correct_answers ++;
         }
         
-        System.out.print("\n1) " + number7 + " x " + number8 + " = ");
+        System.out.print("\n4) " + number7 + " x " + number8 + " = ");
         answer = scan.nextInt();
         if (answer != (number7*number8)) {
             System.out.println(ANSI_RED + "Wrong Answer!" + ANSI_RESET);
@@ -65,7 +65,7 @@ class App {
             correct_answers ++;
         }
         
-        System.out.print("\n1) " + number9 + " x " + number10 + " = ");
+        System.out.print("\n5) " + number9 + " x " + number10 + " = ");
         answer = scan.nextInt();
         if (answer != (number9*number10)) {
             System.out.println(ANSI_RED + "Wrong Answer!" + ANSI_RESET);
